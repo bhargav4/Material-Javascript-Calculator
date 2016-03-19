@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#calc {
+  background-color: #434343;
+  height: auto;
+  width: 332px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #E3E3FD;
+}
+
+.bttn {
+  width: 80px;
+  height: 80px;
+  font-size: 22px;
+  font-weight: thick;
+  color: white;
+  background-color: #434343;
+  border: none;
+  font-family: Roboto;
+  float: left;
+  cursor: pointer;
+  outline: none;
+}
+
+#del,
+#div,
+#mul,
+#min,
+#plus {
+  background-color: #636363;
+}
+
+span {
+  float: left;
+  color: white;
+  font-size: 55px;
+  font-family: Roboto;
+  position: relative;
+  left: 280px;
+}
+
+#ce:hover {
+  cursor: default;
+}
+
+.box {
+  width: 320px;
+  height: 80px;
+  background-color: #1de9b6;
+  float: left;
+}
+
+.foot {
+  position: absolute;
+  margin-top: 510px;
+  width: 100%;
+  height: 55px;
+}
+
+p1 {
+  font-family: roboto;
+  color: black;
+  opacity: 0.4;
+  font-size: 26px;
+  margin-left: 38vw;
+}
